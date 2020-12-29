@@ -3,10 +3,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 1000vh;
+    min-height: 200vh;
 }
-
-table {}
 
 html {
     box-sizing: border-box;
