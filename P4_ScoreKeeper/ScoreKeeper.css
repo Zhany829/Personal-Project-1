@@ -1,0 +1,68 @@
+.add {
+    background-color: #0988f8;
+    color: white;
+    border: 1px solid #9dd1ff;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin: 15px 10px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.add:hover,
+.add:focus {
+    background-color: #54abf7;
+    color: white;
+}
+
+#t1Button {
+    background-color: #09f8f8;
+    color: rgb(27, 106, 252);
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+#t1Button:hover {
+    border-color: #1a0af8;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #0509f1;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#t2Button {
+    background-color: #f8c009;
+    color: crimson;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+#t2Button:hover {
+    border-color: #fc0808;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #f50606;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
+#reset {
+    background-color: #bff00f;
+    color: black;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: color 0.25s, border-color 0.25s, box-shadow 0.25s, transform 0.25s;
+}
+
+#reset:hover {
+    border-color: #3cf00f;
+    color: white;
+    box-shadow: 0 0.5em 0.5em -0.4em #08e908;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
