@@ -108,3 +108,9 @@ const addPlayer2 = (name, score, assist, rebound) => {
     newPlayer.append("________________");
     WarriorsContainer.append(newPlayer);
 }
+LakersContainer.addEventListener('click', function(e) {
+    e.target.nodeName === 'LI' && e.target.remove();
+})
+WarriorsContainer.addEventListener('click', function(e) {
+    e.target.nodeName === 'LI' && e.target.remove();
+})
