@@ -1,1 +1,1 @@
-This is a Chinese yelpcamp project.
+This is a yelpcamp project.
